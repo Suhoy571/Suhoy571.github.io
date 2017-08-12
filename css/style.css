@@ -1,0 +1,515 @@
+/* ------------------------------------------------------------------------------
+	Typography
+-------------------------------------------------------------------------------*/
+.footer-text {
+    font-family: 'PT Sans', sans-serif;
+    color: #656363;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blockquote-style {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.blockquote-author {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d4d4d4;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.photo-header-text {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.some-of-work-header {
+    font-family: 'Playfair Display', serif;
+    color: #231f20;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.grid-headers {
+    font-family: 'Playfair Display', serif;
+    color: #231f20;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.grid-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d4d4d4;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #593bff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+
+.company-name {
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.dot {
+    font-family: 'PT Sans', sans-serif;
+    color: #593bff;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    font-size: 98px;
+    font-weight: 700;
+}
+
+.hello {
+    font-family: 'Playfair Display', serif;
+    color: #231f20;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.header-text {
+    font-family: 'PT Sans', sans-serif;
+    color: #593bff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.block1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d4d4d4;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ------------------------------------------------------------------------------
+	Global Styles
+-------------------------------------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+p,
+ul,
+h2,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+label {
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ------------------------------------------------------------------------------
+	 Header
+-------------------------------------------------------------------------------*/
+
+.main-header {
+    height: 945px;
+    background: url("../img/header/Abstract-Paint-Vol-04_07.jpg") no-repeat center top;
+    align-content: center;
+}
+
+.company-name {
+    padding-top: 35px;
+    padding-left: 120px;
+    font-weight: 400;
+}
+
+.title {
+    text-align: center;
+    padding-top: 125px;
+}
+
+/* Выравнивание кнопки */
+.button {
+    margin-left: 850px;
+    position: relative;
+    top: 50%;
+}
+
+/*Сама кнопка*/
+.btn-navigation {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    background-color: #593bff;
+    font-weight: 700;
+
+    border: none;
+    color: white;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-navigation {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn-navigation:hover {
+    background-color: blue;
+    color: white;
+}
+
+.hello {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* ------------------------------------------------------------------------------
+	 Main
+-------------------------------------------------------------------------------*/
+
+.more-about {
+    background-color: #ffffff;
+    min-height: 635px;
+
+    margin-top: 130px;
+    margin-left: 375px;
+}
+
+.together {
+    float: left;
+}
+
+.block1 {
+    width: 560px;
+}
+
+.button1 {
+    margin-top: 45px;
+}
+
+.grid {
+    margin-left: 650px;
+}
+
+.creative-direction {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 30px 30px;
+    width: 270px;
+    height: 230px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 5px #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-bottom: 3px solid blue;
+}
+
+.mobile-app-design {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 30px 30px;
+    width: 270px;
+    height: 230px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 5px #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-bottom: 3px solid blue;
+}
+
+.web-design {
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 230px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 5px #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-bottom: 3px solid blue;
+}
+
+.digital-marketing {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 30px 30px;
+    width: 270px;
+    height: 230px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 5px #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-bottom: 3px solid blue;
+}
+
+/*Сама кнопка*/
+.btn-navigation2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    background-color: #593bff;
+    font-weight: 700;
+
+    color: white;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 35px;
+
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 5px #f8f8f8;
+    border: 2px solid #f8f8f8;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-navigation2 {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn-navigation2:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------
+	 Some of our work
+-------------------------------------------------------------------------------*/
+
+.some-of-our-work {
+    min-height: 370px;
+    display: table;
+    width: 1903px;
+    background: linear-gradient(to top, white 85%, #f7f7f7 99.9%);
+    border: none;
+}
+
+.some-of-work-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ------------------------------------------------------------------------------
+	 Photos
+-------------------------------------------------------------------------------*/
+
+.photos {
+    background-color: #231f20;
+    min-height: 1080px;
+}
+
+.left-photo {
+    /*Длина фото 842px*/
+    padding-top: 78px;
+    padding-left: 66px;
+    float: left;
+}
+
+.photo-block {
+    border-radius: 15px;
+}
+
+.photo-goods {
+    display: inline-block;
+    vertical-align: top;
+    width: 407px;
+    height: 407px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+    padding-top: 78px;
+}
+
+.photo-books {
+    display: inline-block;
+    vertical-align: top;
+    width: 407px;
+    height: 407px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 78px;
+}
+
+.photo-button {
+    display: inline-block;
+    vertical-align: top;
+    width: 407px;
+    height: 407px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    padding-top: 78px;
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    background-color: #593bff;
+
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 44px;
+    border-radius: 20px;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.photo-button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.photo-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.photo-web-pages {
+    display: inline-block;
+    vertical-align: top;
+    width: 407px;
+    height: 407px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------------------------------------------------------
+	 Quote
+-------------------------------------------------------------------------------*/
+
+.quote {
+    min-height: 430px;
+    background-image: url("../img/main/Water.jpg");
+    display: table;
+    width: 1903px;
+    border: none;
+}
+
+.quote-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ------------------------------------------------------------------------------
+	 Want to work with us
+-------------------------------------------------------------------------------*/
+
+.want-to-work {
+    min-height: 450px;
+    background-color: white;
+    display: table;
+    width: 1903px;
+}
+
+.want-to-work-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.want-to-work-button {
+    position: relative;
+    top: 50%;
+}
+
+/*Сама кнопка*/
+.want-to-work-button-nav {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    background-color: #593bff;
+    font-weight: 700;
+
+    color: white;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 35px;
+
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 5px #f8f8f8;
+    border: 2px solid #f8f8f8;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.want-to-work-button-nav {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.want-to-work-button-nav:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------
+	 Footer
+-------------------------------------------------------------------------------*/
+
+.icons {
+    display: table;
+    min-height: 420px;
+    width: 1903px;
+    background-color: #231f20;
+}
+
+.icons-to-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.thumb {
+    margin-bottom: 40px;
+}
